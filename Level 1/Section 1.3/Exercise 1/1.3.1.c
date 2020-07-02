@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void main() {
+int main() {
     /*
     C-program that prints a message 
     */
@@ -8,4 +8,5 @@ void main() {
    printf("is a fact!\n");
    printf("Good, isn't it?");
    
+   return 0; // 0 represents no error
 }
